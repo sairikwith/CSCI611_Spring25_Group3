@@ -2,13 +2,13 @@
 
 This repository contains the final project for **CSCI 611 - Spring 2025**, implemented by **Group 3**.
 
-## 📌 Objective
+## Objective
 
 This project demonstrates an offline Retrieval-Augmented Generation (RAG) pipeline using lightweight models (MiniLM + DistilGPT2). It enables accurate, low-latency answers to user queries by combining semantic search with local language generation.
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 - Pavan Sesha Sai Kasukurthi  
 - Lokesh Repala  
@@ -17,7 +17,7 @@ This project demonstrates an offline Retrieval-Augmented Generation (RAG) pipeli
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - Fully **offline and local** RAG pipeline  
 - Efficient **dense vector search** using PyTorch  
@@ -27,7 +27,7 @@ This project demonstrates an offline Retrieval-Augmented Generation (RAG) pipeli
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 Open the Jupyter Notebook:
 
@@ -54,7 +54,7 @@ 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
 
 ### In Google Colab:
 
-Go to the left-side **🔐 Secrets tab** → click **“+ Add a new secret”**
+Go to the left-side ** Secrets tab** → click **“+ Add a new secret”**
 Add:
 
 * **Name:** `HF_TOKEN`
@@ -95,5 +95,3 @@ token = os.getenv("HF_TOKEN")
 * Create a lightweight UI (Gradio/Streamlit)
 * Explore multi-modal documents
 * Benchmark with academic QA datasets
-
-```
