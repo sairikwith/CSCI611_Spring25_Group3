@@ -2,13 +2,13 @@
 
 This repository contains the final project for **CSCI 611 - Spring 2025**, implemented by **Group 3**.
 
-## 📌 Objective
+## Objective
 
 This project demonstrates an offline Retrieval-Augmented Generation (RAG) pipeline using lightweight models (MiniLM + DistilGPT2). It enables accurate, low-latency answers to user queries by combining semantic search with local language generation.
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 - Pavan Sesha Sai Kasukurthi  
 - Lokesh Repala  
@@ -17,7 +17,7 @@ This project demonstrates an offline Retrieval-Augmented Generation (RAG) pipeli
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - Fully **offline and local** RAG pipeline  
 - Efficient **dense vector search** using PyTorch  
@@ -27,9 +27,9 @@ This project demonstrates an offline Retrieval-Augmented Generation (RAG) pipeli
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### ⚙️ IMPORTANT: Enable GPU in Google Colab
+###  IMPORTANT: Enable GPU in Google Colab
 Before running this notebook:
 1. Go to **Runtime > Change runtime type**
 2. Set **Hardware accelerator** to **GPU**
@@ -37,7 +37,7 @@ Before running this notebook:
 
 ---
 
-### ▶️ Run the Code
+### Run the Code
 
 Open the Jupyter Notebook:
 ```bash
@@ -48,7 +48,7 @@ Run the cells from top to bottom. Everything is included — from PDF extraction
 
 ---
 
-## 🔐 Hugging Face API Token Required
+## Hugging Face API Token Required
 
 To run the generation step using the Hugging Face `transformers` pipeline, you need a Hugging Face API token.
 
@@ -63,7 +63,7 @@ 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
 
 ### In Google Colab:
 
-Go to the left-side **🔐 Secrets tab** → click **“+ Add a new secret”**
+Go to the left-side ** Secrets tab** → click **“+ Add a new secret”**
 Add:
 
 * **Name:** `HF_TOKEN`
@@ -88,7 +88,7 @@ token = os.getenv("HF_TOKEN")
 
 ---
 
-## 🖼️ Screenshots and What They Show
+## Screenshots and What They Show
 
 ### `01_pdf_text_extraction.png`
 
@@ -112,7 +112,7 @@ Displays a real generated answer from DistilGPT2 in response to a query, along w
 
 ---
 
-## 📘 References
+## References
 
 * [Retrieval-Augmented Generation (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401)
 * [Sentence Transformers](https://www.sbert.net/)
@@ -122,7 +122,7 @@ Displays a real generated answer from DistilGPT2 in response to a query, along w
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 * Add hybrid BM25 + dense retriever
 * Create a lightweight UI (Gradio/Streamlit)
